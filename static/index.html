@@ -6,10 +6,9 @@
   <title>Go Sudoku Solver</title>
   <link rel="stylesheet" href="css/default.css">
   <script src="js/api.js" async></script>
-  <script src="js/sudoku.js" async></script>
+  <script src="js/sudoku.js"></script>
   <script type="text/javascript">
     window.onload = sudoku.init;
-    
   </script>
 </head>
 
@@ -20,5 +19,11 @@
   </label>
   <button onclick="sudoku.solve()">Solve</button>
   <div id="sudokudiv"></div>
+  <div>
+    <p>
+      This is a very simple Sudoku solver written in Golang <br/>
+      Source code and further information can be found <a href="https://github.com/monquixote/gosudoku"> here</a> and <a href="https://github.com/monquixote/sudokuServer">here</a>
+    </p>
+  </div>
 </body>
 </html>
