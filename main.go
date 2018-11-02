@@ -1,3 +1,4 @@
+// Sets up web server and registers routes
 package main
 
 import (

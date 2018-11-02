@@ -1,3 +1,4 @@
+// Route handlers for API
 package main
 
 import (
@@ -10,6 +11,7 @@ import (
 	"github.com/monquixote/gosudoku/sudoku"
 )
 
+// Response struct for validation and solve APIS
 type sudokuResult struct {
 	Valid  bool  `json:"valid"`
 	Solved *bool `json:"solved,omitempty"`
