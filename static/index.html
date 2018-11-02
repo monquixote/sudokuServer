@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Go Sudoku Solver</title>
+  <link rel="stylesheet" href="css/default.css">
+  <script src="js/api.js" async></script>
+  <script src="js/sudoku.js" async></script>
+  <script type="text/javascript">
+    window.onload = sudoku.init;
+    
+  </script>
+</head>
+
+<body>
+  <h1>Go Sudoku</h1>
+  <label for="sudokuselect">Puzzle:
+    <select id="sudokuselect"></select>
+  </label>
+  <button onclick="sudoku.solve()">Solve</button>
+  <div id="sudokudiv"></div>
+</body>
+</html>
